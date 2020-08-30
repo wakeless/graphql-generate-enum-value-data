@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Generate assets should generate enum descriptions 1`] = `
+"// @flow
+
+/**
+ * THIS FILE IS AUTO GENERATED, DO NOT EDIT DIRECTLY.
+ */
+
+export const BaseEnum = {
+  customer_type: {
+    name: 'customer_type',
+    description: 'A cool customer type',
+    isDeprecated: false,
+    deprecationReason: null,
+  },
+  something_else: {
+    name: 'something_else',
+    description: null,
+    isDeprecated: false,
+    deprecationReason: null,
+  },
+};
+"
+`;

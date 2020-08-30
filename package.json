@@ -1,0 +1,44 @@
+{
+  "name": "graphql-generate-enum-value-data",
+  "version": "0.0.2",
+  "author": "Michael Gall (@wakelessnet)",
+  "license": "MIT",
+  "repository": "https://github.com/wakeless/graphql-generate-enum-value-data",
+  "description": "Generate enum value assets  based on enums in graphql schema",
+  "main": "./src/index.js",
+  "keywords": [
+    "graphql",
+    "schema",
+    "flow",
+    "flowtype",
+    "relay",
+    "relaymodern",
+    "apollo",
+    "apollocodegen",
+    "js",
+    "generator",
+    "enum"
+  ],
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "src",
+    "yarn.lock"
+  ],
+  "bin": {
+    "graphql-generate-enum-value-data": "./src/index.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "*",
+    "graphql": "^0.13.2",
+    "prettier": "*"
+  },
+  "devDependencies": {
+    "jest": "*"
+  }
+}

@@ -1,0 +1,17 @@
+type BaseType {
+  customerEnum: BaseEnum
+}
+
+scalar URL
+
+type Query {
+  base: BaseType
+}
+
+enum BaseEnum {
+  """
+  A cool customer type
+  """
+  customer_type
+  something_else
+}
